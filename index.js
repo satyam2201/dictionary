@@ -5,6 +5,7 @@ var notFound = document.querySelector(".not_found")
 var definitionBox = document.querySelector(".definition")
 var audioBox = document.querySelector(".audio")
 var loading = document.querySelector(".loading")
+var footerbox = document.querySelector(".footers")
 
 definitionBox.innerHTML=""
 
@@ -16,6 +17,7 @@ btn.addEventListener("click", function (e) {
   audioBox.innerHTML="";
   notFound.innerText="";
   definitionBox.innerHTML=""
+   footerbox.innerHTML=""
 
    //Get input data
    var inputVal = input.value;
