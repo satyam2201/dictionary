@@ -85,15 +85,13 @@ section .data{
 .audio{
    margin: 20x;
 }
-footer{
-  position: fixed;
-  bottom: 0%;
- right: 0;
-}
+
 footer p{
-    
+margin-top: 300px;
+    text-align: center;
     cursor: pointer;
-    color: rgb(112, 112, 112);}
+    color: rgb(112, 112, 112);
+}
 @media (max-width:600px) {
     .container{
         width: 100%;
